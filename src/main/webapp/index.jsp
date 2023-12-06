@@ -3,7 +3,7 @@
 <HEAD>
     <%@page contentType="text/html;charset=UTF-8" %>
     <%@ page import="java.util.List" %>
-    <%@ page import="firstwebapp.xmlmanager.MobileApp" %>
+    <%@ page import="firstwebapp.xmlmanager.Client" %>
     <%@ page import="org.apache.commons.lang3.tuple.Pair" %>
     <TITLE> JavaServer Pages</TITLE>
     <META NAME="author" CONTENT="Marty Hall -- hall@apl.jhu.edu">

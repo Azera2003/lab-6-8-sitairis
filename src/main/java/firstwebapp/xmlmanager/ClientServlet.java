@@ -12,15 +12,15 @@ import java.io.IOException;
 import java.util.List;
 
 
-@WebServlet(name = "MobileAppsServlet", urlPatterns = "/MobileAppsServlet")
-public class MobileAppsServlet extends HttpServlet {
+@WebServlet(name = "ClientServlet", urlPatterns = "/ClientServlet")
+public class ClientServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         try {
 
             String filePath = "C:\\Users\\HP\\Desktop\\СИТАИРИС\\4_lab\\new_test.xml";
 
-            XmlReader<Pair<Integer, List<MobileApp>>> reader = new XmlReaderDocumentFactory();
-            XmlManager<Pair<Integer, List<MobileApp>>> manager = new XmlManagerImpl(filePath,reader);
+            XmlReader<Pair<Integer, List<Client>>> reader = new XmlReaderDocumentFactory();
+            XmlManager<Pair<Integer, List<Client>>> manager = new XmlManagerImpl(filePath,reader);
 
 
 

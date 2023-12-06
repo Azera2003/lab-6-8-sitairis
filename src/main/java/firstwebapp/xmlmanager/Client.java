@@ -1,14 +1,14 @@
 package firstwebapp.xmlmanager;
 
-public class MobileApp {
+public class Client {
 
     private final String name;
-    private final int Size;
+    private final int Age;
 
 
-    public MobileApp(String name, int size) {
+    public Client(String name, int age) {
         this.name = name;
-        this.Size = size;
+        this.Age = age;
         //  this.ds
     }
 
@@ -17,7 +17,7 @@ public class MobileApp {
         return name;
     }
 
-    public int getSize() {
-        return Size;
+    public int getAge() {
+        return Age;
     }
 }

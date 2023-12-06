@@ -6,13 +6,13 @@
   <display-name>Archetype Created Web Application</display-name>
 
   <servlet>
-    <servlet-name>MobileAppsServlet</servlet-name>
-    <servlet-class>firstwebapp.xmlmanager.MobileAppsServlet</servlet-class>
+      <servlet-name>ClientServlet</servlet-name>
+    <servlet-class>firstwebapp.xmlmanager.ClientServlet</servlet-class>
   </servlet>
 
   <servlet-mapping>
-    <servlet-name>MobileAppsServlet</servlet-name>
-    <url-pattern>/MobileAppsServlet</url-pattern>
+    <servlet-name>ClientServlet</servlet-name>
+    <url-pattern>/ClientServlet</url-pattern>
   </servlet-mapping>
 
 </web-app>

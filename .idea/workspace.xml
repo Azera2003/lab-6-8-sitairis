@@ -4,11 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f01c95b-4549-4b6d-9731-5a881d102e53" name="Changes" comment="" />
+    <list default="true" id="7f01c95b-4549-4b6d-9731-5a881d102e53" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/firstwebapp/xmlmanager/MobileApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstwebapp/xmlmanager/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/firstwebapp/xmlmanager/MobileAppsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstwebapp/xmlmanager/ClientServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/firstwebapp/xmlmanager/XmlManagerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstwebapp/xmlmanager/XmlManagerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/firstwebapp/xmlmanager/XmlReaderDocumentFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/firstwebapp/xmlmanager/XmlReaderDocumentFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/java/TestXmlManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/java/TestXmlManager.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -26,9 +40,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/User/IdeaProjects/Lab_6-8_sitairis"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\IdeaProjects\Lab_6-8_sitairis\src\main" />
+      <recent name="C:\Users\User\IdeaProjects\Lab_6-8_sitairis\src\test\java" />
+      <recent name="C:\Users\User\IdeaProjects\Lab_6-8_sitairis\src\main\java" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -39,5 +62,16 @@
       <updated>1701882599812</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

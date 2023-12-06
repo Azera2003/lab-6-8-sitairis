@@ -14,37 +14,37 @@ import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public class XmlReaderDocumentFactory implements XmlReader<Pair<Integer, List<MobileApp>>> {
+public class XmlReaderDocumentFactory implements XmlReader<Pair<Integer, List<Client>>> {
 
   private final DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 
     @Override
-    public Pair<Integer, List<MobileApp>> readFromFile(String filePath) {
+    public Pair<Integer, List<Client>> readFromFile(String filePath) {
         try {
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
             Document doc = dBuilder.parse(new File(filePath));
 
             Element root = doc.getDocumentElement();
 
-            NodeList mobileAppNodes = root.getElementsByTagName("mobileApp");
+            NodeList clientNodes = root.getElementsByTagName("client");
 
-            List<MobileApp> mobileApps = new ArrayList<>();
+            List<Client> clients = new ArrayList<>();
 
-            for (int i = 0; i < mobileAppNodes.getLength(); i++) {
-                Element mobileAppElement = (Element) mobileAppNodes.item(i);
-                String name = mobileAppElement.getElementsByTagName("name").item(0).getTextContent();
-                int size = Integer.parseInt(mobileAppElement.getElementsByTagName("size").item(0).getTextContent());
+            for (int i = 0; i < clientNodes.getLength(); i++) {
+                Element clientElement = (Element) clientNodes.item(i);
+                String name = clientElement.getElementsByTagName("name").item(0).getTextContent();
+                int size = Integer.parseInt(clientElement.getElementsByTagName("age").item(0).getTextContent());
 
-                MobileApp mobileApp = new MobileApp(name, size);
-                mobileApps.add(mobileApp);
+                Client client = new Client(name, size);
+                clients.add(client);
             }
 
             AtomicInteger totalSize = new AtomicInteger();
 
-            mobileApps.forEach(mobileApp -> {
-                totalSize.addAndGet(mobileApp.getSize());
+            clients.forEach(client -> {
+                totalSize.addAndGet(client.getAge());
             });
-            return new MutablePair<>(totalSize.get(), mobileApps);
+            return new MutablePair<>(totalSize.get(), clients);
         }catch (Exception e){
             return new MutablePair<>(0, Collections.emptyList());
         }
